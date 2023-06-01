@@ -1,0 +1,242 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar{
+    background-color: rgb(73, 77, 77);
+    color: aliceblue;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.pageName{
+    margin-top: 5px;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+.nav{
+margin-top: 12px;
+}
+
+.nav i{
+    padding: 5px 8px;
+    margin-right: 5px;
+
+}
+
+.nav i:hover {
+    background-color: #eaf4f8;
+    color: rgb(56, 53, 53);
+}
+
+.nav a{
+    text-align: center;
+    color: rgb(247, 244, 244);
+    padding: 33px 35px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+.nav a:hover {
+    background-color: #eaf4f8;
+    color: rgb(56, 53, 53);
+}
+
+.header{
+    height: 500px;
+    background-image: url(c1.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.header h2{
+    color: rgb(248, 244, 244);
+    font-weight: bolder;
+    background-color: blue;
+    display: inline-block;
+    margin-top: 150px;
+    font-size: 70px;
+    margin-left: 5px;
+    font-style: italic;
+}
+.header p{
+    font-size: 26px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.stg1{
+    height: 500px;
+}
+
+.firm{
+display:flex;
+}
+
+.stg1 pre{
+    margin-left:-100px;
+    margin-top: 90px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.stg1 img{
+    width: 400px;
+    height: 350px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.stg2{
+    height: 500px;
+    background-color: rgb(248, 241, 231);
+}
+
+.stg2 h1{
+font-weight: bolder;
+font-size: xx-large;
+padding-top: 30px;
+}
+
+.flex{
+    display: flex;
+    padding: 50px 30px;
+    justify-content: space-around;
+}
+
+.flex i{
+    font-size: 45px;
+    color: blue;
+}
+
+.flex h2{
+    padding:30px;
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+.flex p{
+    font-weight: 10px;
+    color: rgb(44, 51, 49);
+}
+
+.flex button{
+margin-top: 50px;
+padding: 7px 15px;
+background-color: #4394b4;
+}
+
+.dollar{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding-top: 15px;
+}
+.user{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding-top: 15px;
+}
+.plan{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.stg3{
+    height: 250px;
+    text-align: center;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.hr{
+    background-color: blue;
+    height: 1px;
+    width: 100px;
+    margin-left: 625px;
+    font-weight: bold;
+}
+.form{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form input{
+width: 300px;
+height: 20px;
+}
+.form button{
+    margin-top: -3px;
+    width: 200px;
+    height: 30px;
+    background-color: blue;
+    color: aliceblue;
+    }
+
+.stg4{
+    height: 600px;
+    background-image: url(c3.jpg);
+    background-size: cover;
+}
+
+.side{
+    background-color: aliceblue;
+    height:600px;
+    width: 300px;
+    float: right;
+    opacity:0.8;
+}
+.font{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    font-style: italic;
+}
+.footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cont{
+    margin:40px 40px;
+}
+
+.nav2{
+    margin-top: 40px;
+}
+
+.nav2 a{
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+    padding: 10px 20px;
+}
+
+.nav2 .icons i{
+    padding : 20px 10px;
+    float: right;
+    margin-right: 10px;
+    font-size: 25px;
+    color: blue;
+}
+
+.nav2 a:hover {
+    background-color: #4394b4;
+    color: rgb(243, 238, 238);
+}
